@@ -18,7 +18,7 @@ $ npm install craco-base64-inline-loader base64-inline-loader --save-dev
 
 `craco-base64-inline-loader` expect a `test` option containing your regex selector.
 
-Here is a simple `craco.config.js` example for `frag` (OpenGL Fragment Shader) files:
+Here is a simple `craco.config.js` example to convert every font types to base64:
 
 ```js
 const base64Loader = require('craco-base64-inline-loader')
@@ -29,7 +29,7 @@ module.exports = {
      { plugin: base64Loader,
        options: {
          test: /\.(ttf|eot|otf|svg|woff(2)?)$/i ,
-         limit: 1000
+         limit: 1000 // <-- Optional
          }
      }
   ]
