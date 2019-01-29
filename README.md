@@ -7,11 +7,11 @@ This is a [craco](https://github.com/sharegate/craco) plugin that makes it easy 
 ## Installation
 
 ```bash
-$ yarn add -D craco-base64-inline-loader base64-inline-loader
+$ yarn add -D craco-base64-inline-loader
 
 # OR
 
-$ npm install craco-base64-inline-loader base64-inline-loader --save-dev
+$ npm install craco-base64-inline-loader --save-dev
 ```
 
 ## Basic Usage
