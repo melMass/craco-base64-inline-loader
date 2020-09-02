@@ -32,6 +32,7 @@ module.exports = {
          limit: 1000 // <-- Optional
          }
      }
-  ]
+    ]
+  }
 }
 ```
